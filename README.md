@@ -1,4 +1,4 @@
-### Dimension Reduction
+## Visualizing Data using t-SNE
 
 ```python
 from __future__ import print_function
@@ -151,24 +151,20 @@ sns.scatterplot(
 plt.show()
 
 ```
-Explained variation per principal component: [0.09819946 0.07123677 0.06113222]
-[t-SNE] Computing 121 nearest neighbors...
-[t-SNE] Indexed 10000 samples in 0.648s...
-[t-SNE] Computed neighbors for 10000 samples in 85.463s...
-[t-SNE] Computed conditional probabilities for sample 1000 / 10000
-[t-SNE] Computed conditional probabilities for sample 2000 / 10000
-[t-SNE] Computed conditional probabilities for sample 3000 / 10000
-[t-SNE] Computed conditional probabilities for sample 4000 / 10000
-[t-SNE] Computed conditional probabilities for sample 5000 / 10000
-[t-SNE] Computed conditional probabilities for sample 6000 / 10000
-[t-SNE] Computed conditional probabilities for sample 7000 / 10000
-[t-SNE] Computed conditional probabilities for sample 8000 / 10000
-[t-SNE] Computed conditional probabilities for sample 9000 / 10000
-[t-SNE] Computed conditional probabilities for sample 10000 / 10000
-[t-SNE] Mean sigma: 2.117975
-[t-SNE] KL divergence after 250 iterations with early exaggeration: 85.844681
-[t-SNE] KL divergence after 300 iterations: 2.786744
-t-SNE done! Time elapsed: 131.56845355033875 seconds
+Explained variation per principal component: [0.09819946 0.07123677 0.06113222]  
+[t-SNE] Computing 121 nearest neighbors...  
+[t-SNE] Indexed 10000 samples in 0.648s...  
+[t-SNE] Computed neighbors for 10000 samples in 85.463s...  
+[t-SNE] Computed conditional probabilities for sample 1000 / 10000  
+[t-SNE] Computed conditional probabilities for sample 2000 / 10000  
+...
+[t-SNE] Computed conditional probabilities for sample 8000 / 10000  
+[t-SNE] Computed conditional probabilities for sample 9000 / 10000  
+[t-SNE] Computed conditional probabilities for sample 10000 / 10000  
+[t-SNE] Mean sigma: 2.117975  
+[t-SNE] KL divergence after 250 iterations with early exaggeration: 85.844681  
+[t-SNE] KL divergence after 300 iterations: 2.786744  
+t-SNE done! Time elapsed: 131.56845355033875 seconds  
 ![Alt text](./res/4.png "dimensionreduction")
 ```python
 
@@ -247,7 +243,9 @@ sns.scatterplot(
 )
 plt.show()
 ```
+Cumulative explained variation for 50 principal components: 0.8261610590761399  
+t-SNE done! Time elapsed: 50.5929696559906 seconds  
 ![Alt text](./res/6.png "dimensionreduction")
-Cumulative explained variation for 50 principal components: 0.8261610590761399
-t-SNE done! Time elapsed: 50.5929696559906 seconds
+
+
 
